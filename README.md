@@ -1,5 +1,13 @@
 # data-science-examples
 
+## Seaborn examples
+
+Seaborn, a Python data visualisation library, makes beautiful plots. There is a convenient Julia interface to Seaborn, but documentation and examples are scarce. This notebook covers some basic principles for using Seaborn in Julia, and attempts to replicate the majority of the plots from the Seaborn examples gallery.
+
+https://github.com/sashamurrell/data-science-examples/blob/master/SeabornExamples.ipynb
+
+<img width="556" alt="seaborn" src="https://user-images.githubusercontent.com/46842167/52180196-91483a00-27e3-11e9-9e7b-088300860565.png">
+
 ## Modelling incentives
 
 Modelling the effect of incentives (such as price discounts) on customer behaviour, assuming customers are rational agents with a consistent reserve price over time. Defines a custom likelihood model for the model given data. Makes use of Markov Chain Monte Carlo using the Metropolis-Hastings  algorithm, in conjunction with data simulated under the model, to sample from the posterior distribution over unknown parameters related to the reserve price distribution. Compares the resulting posterior predictive distribution to the ground truth, investigating the effects of extending inference to unknown incentive sizes.
